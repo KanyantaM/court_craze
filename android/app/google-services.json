@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "150776766204",
+    "project_id": "electric-signal-423715-i1",
+    "storage_bucket": "electric-signal-423715-i1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:150776766204:android:5725305c0adc3a0c0b4179",
+        "android_client_info": {
+          "package_name": "com.example.court_craze"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0nVXMsXu6Nx11Y0rzAgtfebt22sw4TI8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
