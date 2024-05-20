@@ -38,7 +38,6 @@ class VideoPage {
 
 
   factory VideoPage.fromMap(Map<String, dynamic>? map, String videoId) {
-    print(map.toString());
     return VideoPage(
         videoId: videoId,
         title: map?['results']['results']['contents'][0]['videoPrimaryInfoRenderer']['title']['runs'][0]['text'],
