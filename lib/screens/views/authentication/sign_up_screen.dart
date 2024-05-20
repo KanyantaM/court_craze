@@ -1,6 +1,6 @@
 import 'package:country_picker/country_picker.dart';
 import 'package:court_craze/screens/layout.dart';
-import 'package:court_craze/screens/log_in_screen.dart';
+import 'package:court_craze/screens/views/authentication/log_in_screen.dart';
 import 'package:court_craze/widgets/custom_app_bar.dart';
 import 'package:court_craze/widgets/custom_elevated_button.dart';
 import 'package:flutter/material.dart';
