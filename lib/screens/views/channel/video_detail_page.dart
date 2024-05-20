@@ -5,7 +5,7 @@ import 'package:youtube_data_api_vk/models/video_data.dart';
 import 'package:youtube_data_api_vk/youtube_data_api.dart';
 import 'package:line_icons/line_icons.dart';
 import 'package:pod_player/pod_player.dart';
-import '../helpers/shared_helper.dart';
+import '../../../helpers/shared_helper.dart';
 
 class VideoDetailPage extends StatefulWidget {
   final String videoId;
