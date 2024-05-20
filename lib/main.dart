@@ -1,6 +1,6 @@
 import 'package:court_craze/firebase_options.dart';
 import 'package:court_craze/json/jsons.dart';
-import 'package:court_craze/screens/get_started_screen.dart';
+import 'package:court_craze/screens/views/authentication/get_started_screen.dart';
 import 'package:court_craze/screens/layout.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
