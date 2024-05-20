@@ -1,5 +1,5 @@
+import 'package:court_craze/components/constant.dart';
 import 'package:flutter/material.dart';
-import 'package:court_craze/constant.dart';
 import 'package:court_craze/components/cacheimg.dart';
 import 'package:court_craze/screens/views/teams_view/teaminfo.dart';
 import 'package:provider/provider.dart';

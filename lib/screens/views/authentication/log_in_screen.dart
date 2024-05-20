@@ -1,9 +1,9 @@
+import 'package:court_craze/components/widgets/custom_app_bar.dart';
+import 'package:court_craze/components/widgets/custom_elevated_button.dart';
 import 'package:court_craze/json/jsons.dart';
 import 'package:court_craze/screens/layout.dart';
 import 'package:court_craze/screens/views/authentication/forgot_password.dart';
 import 'package:court_craze/screens/views/authentication/sign_up_screen.dart';
-import 'package:court_craze/widgets/custom_app_bar.dart';
-import 'package:court_craze/widgets/custom_elevated_button.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:firebase_auth/firebase_auth.dart';

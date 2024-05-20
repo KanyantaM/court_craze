@@ -1,6 +1,6 @@
+import 'package:court_craze/components/constant.dart';
 import 'package:flutter/material.dart';
 import 'package:court_craze/components/standings_widgets/table.dart';
-import '../../constant.dart';
 
 class Bar extends StatelessWidget {
   final dynamic eastTable;

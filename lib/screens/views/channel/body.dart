@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'package:court_craze/components/widgets/video_widget.dart';
 import 'package:court_craze/model/subscribed.dart';
 import 'package:court_craze/services/api_ey/key.dart';
 import 'package:flutter/material.dart';
@@ -6,7 +7,6 @@ import 'package:youtube_data_api_vk/models/channel_data.dart';
 import 'package:youtube_data_api_vk/models/video.dart';
 import 'package:youtube_data_api_vk/youtube_data_api.dart';
 import '/helpers/shared_helper.dart';
-import '/widgets/video_widget.dart';
 
 class Body extends StatefulWidget {
   final String title;

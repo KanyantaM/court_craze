@@ -1,6 +1,6 @@
+import 'package:court_craze/components/widgets/custom_elevated_button.dart';
 import 'package:court_craze/screens/views/authentication/log_in_screen.dart';
 import 'package:court_craze/screens/views/authentication/sign_up_screen.dart';
-import 'package:court_craze/widgets/custom_elevated_button.dart';
 import 'package:flutter/material.dart';
 
 class GetStartedScreen extends StatefulWidget {

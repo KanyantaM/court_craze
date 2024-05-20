@@ -1,5 +1,5 @@
+import 'package:court_craze/components/widgets/custom_app_bar.dart';
 import 'package:court_craze/screens/views/channel/channel_page.dart';
-import 'package:court_craze/widgets/custom_app_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:youtube_data_api_vk/models/video_data.dart';
 import 'package:youtube_data_api_vk/youtube_data_api.dart';
@@ -59,7 +59,6 @@ class _VideoDetailPageState extends State<VideoDetailPage> {
     progressPadding = MediaQuery.of(context).size.height * 0.3;
     return Scaffold(
       appBar: customAppBar(automaticallyImplyLeading: true),
-      // backgroundColor: SecondaryColor,
       body: getBody(),
     );
   }
@@ -637,6 +636,5 @@ class _VideoDetailPageState extends State<VideoDetailPage> {
   void subscribe() async {}
 
   void unSubscribe() async {
-    ///TODO: Unsubscribe channel from video page
   }
 }

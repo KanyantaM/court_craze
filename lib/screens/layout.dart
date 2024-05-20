@@ -1,10 +1,9 @@
+import 'package:court_craze/components/widgets/coming_soon.dart';
+import 'package:court_craze/components/widgets/custom_app_bar.dart';
+import 'package:court_craze/components/widgets/pop_ups/privacy_popup.dart';
 import 'package:court_craze/screens/get_started_screen.dart';
 import 'package:court_craze/screens/views/channel/channel_page.dart';
-import 'package:court_craze/widgets/coming_soon.dart';
-import 'package:court_craze/widgets/custom_app_bar.dart';
-import 'package:court_craze/widgets/pop_ups/privacy_popup.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-// import 'package:court_craze/widgets/custom_app_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:court_craze/screens/views/games_view/games.dart';
 import 'package:court_craze/screens/views/standings_view/standings.dart';
