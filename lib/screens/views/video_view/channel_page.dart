@@ -1,4 +1,4 @@
-import 'package:court_craze/screens/views/channel/body.dart';
+import 'package:court_craze/screens/views/video_view/body.dart';
 import 'package:flutter/material.dart';
 import 'package:youtube_data_api_vk/models/channel_data.dart';
 import 'package:youtube_data_api_vk/youtube_data_api.dart';

@@ -2,12 +2,12 @@ import 'package:court_craze/components/widgets/coming_soon.dart';
 import 'package:court_craze/components/widgets/custom_app_bar.dart';
 import 'package:court_craze/components/widgets/pop_ups/privacy_popup.dart';
 import 'package:court_craze/screens/views/authentication/get_started_screen.dart';
-import 'package:court_craze/screens/views/channel/channel_page.dart';
+import 'package:court_craze/screens/views/video_view/channel_page.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:court_craze/screens/views/games_view/games.dart';
 import 'package:court_craze/screens/views/standings_view/standings.dart';
-import 'package:court_craze/screens/views/teams_view/players.dart';
+import 'package:court_craze/screens/views/teams_view/teams.dart';
 import 'package:package_info_plus/package_info_plus.dart';
 
 class Layout extends StatefulWidget {
@@ -23,7 +23,7 @@ class _LayoutState extends State<Layout> {
     const Standings(),
     const ChannelPage(id: 'UCWJ2lWNubArHWmf3FIHbfcQ', title: 'NBA'),
     const Games(),
-    const Players(),
+    const Teams(),
   ];
 
   void onTapChangeView(int index) {

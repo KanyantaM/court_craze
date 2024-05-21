@@ -13,7 +13,7 @@ class Games extends StatefulWidget {
 }
 
 class _GamesState extends State<Games> {
-  DateTime _selectedDate = DateTime.now(); // Initial date is set to now
+  DateTime _selectedDate = DateTime.now();
   @override
   void initState() {
     _selectedDate = DateTime.now();

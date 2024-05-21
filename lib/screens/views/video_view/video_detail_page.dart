@@ -1,5 +1,5 @@
 import 'package:court_craze/components/widgets/custom_app_bar.dart';
-import 'package:court_craze/screens/views/channel/channel_page.dart';
+import 'package:court_craze/screens/views/video_view/channel_page.dart';
 import 'package:flutter/material.dart';
 import 'package:youtube_data_api_vk/models/video_data.dart';
 import 'package:youtube_data_api_vk/youtube_data_api.dart';
